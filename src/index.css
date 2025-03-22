@@ -36,4 +36,13 @@
   .text-shadow {
     text-shadow: 0 0 8px rgba(15, 23, 42, 0.8);
   }
+  
+  .active-nav-link {
+    @apply text-text-primary;
+  }
+  
+  .active-nav-link::after {
+    content: '';
+    @apply absolute w-full h-0.5 bottom-[-4px] left-0 bg-accent-gradient;
+  }
 }
