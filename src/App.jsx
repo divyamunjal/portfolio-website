@@ -1,24 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import SocialLinks from './components/SocialLinks'
-import AboutSection from './components/About'
-import HomePage from './pages/HomePage'
-import ExperiencePage from './pages/ExperiencePage';
-import ProjectsPage from './pages/ProjectsPage';
-import ContactPage from './pages/ContactPage';
+import About from './pages/About'
+import Home from './pages/Home'
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import emailjs from '@emailjs/browser';
 
 function App() {
+  useEffect(() => {
+    // Initialize EmailJS with your user ID
+    emailjs.init("OokEbuqaiR5PBzm16");
+  }, []);
   return (
     <Router>
       <div className="w-full min-h-screen flex flex-col overflow-x-hidden">
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutSection />} />
-          <Route path="/experience" element={<ExperiencePage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <SocialLinks />

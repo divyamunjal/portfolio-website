@@ -1,10 +1,10 @@
-// src/pages/ContactPage.jsx
+// src/pages/Contact.jsx
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi';
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
-const ContactPage = () => {
+const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -34,9 +34,9 @@ const ContactPage = () => {
       const emailjs = await import('@emailjs/browser');
       
       // You'll need to replace these with your actual EmailJS credentials
-      const serviceId = 'YOUR_EMAILJS_SERVICE_ID';
-      const templateId = 'YOUR_EMAILJS_TEMPLATE_ID';
-      const userId = 'YOUR_EMAILJS_USER_ID';
+      const serviceId = 'service_mv57yfi';
+      const templateId = 'template_ur806b7';
+      const userId = 'OokEbuqaiR5PBzm16';
       
       const templateParams = {
         from_name: formData.name,
@@ -124,7 +124,7 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h3 className="text-text-primary font-medium">Phone</h3>
-                  <p className="text-text-secondary">+1 (555) 123-4567</p>
+                  <p className="text-text-secondary">+91 - 7206122867</p>
                 </div>
               </div>
               
@@ -134,7 +134,7 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h3 className="text-text-primary font-medium">Location</h3>
-                  <p className="text-text-secondary">New York, USA</p>
+                  <p className="text-text-secondary">Bangalore, India</p>
                 </div>
               </div>
             </div>
@@ -142,14 +142,11 @@ const ContactPage = () => {
             <div className="mt-10">
               <h3 className="text-lg font-medium text-text-primary mb-4">Connect with me</h3>
               <div className="flex gap-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-bg-secondary/50 flex items-center justify-center text-text-secondary hover:text-accent transition-colors duration-300">
+                <a href="https://github.com/divyamunjal" target='_blank' className="w-10 h-10 rounded-full bg-bg-secondary/50 flex items-center justify-center text-text-secondary hover:text-accent transition-colors duration-300">
                   <FaGithub size={20} />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-bg-secondary/50 flex items-center justify-center text-text-secondary hover:text-accent transition-colors duration-300">
+                <a href="https://www.linkedin.com/in/divya-munjal-00b22714b/" target='_blank' className="w-10 h-10 rounded-full bg-bg-secondary/50 flex items-center justify-center text-text-secondary hover:text-accent transition-colors duration-300">
                   <FaLinkedinIn size={20} />
-                </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-bg-secondary/50 flex items-center justify-center text-text-secondary hover:text-accent transition-colors duration-300">
-                  <FaTwitter size={20} />
                 </a>
               </div>
             </div>
@@ -249,4 +246,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default Contact;

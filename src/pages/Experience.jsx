@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaAngular, FaMobile } from 'react-icons/fa';
 
-const ExperiencePage = () => {
+const Experience = () => {
   const experiences = [
     {
       id: 1,
@@ -195,4 +195,4 @@ const ExperiencePage = () => {
   );
 };
 
-export default ExperiencePage;
+export default Experience;

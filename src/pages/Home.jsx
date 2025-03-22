@@ -2,7 +2,7 @@ import React from 'react';
 import HeroSection from '../components/HeroSection';
 import SkillsSection from '../components/SkillsSection';
 
-const HomePage = () => {
+const Home = () => {
   return (
     <>
       <HeroSection />
@@ -11,4 +11,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;

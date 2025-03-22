@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
-const ProjectsPage = () => {
+const Projects = () => {
   const [filter, setFilter] = useState('all');
 
   // Sample project data - replace with your actual projects
@@ -287,4 +287,4 @@ const ProjectsPage = () => {
   );
 };
 
-export default ProjectsPage;
+export default Projects;

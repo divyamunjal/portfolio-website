@@ -1,7 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+// Import the profile image
+import profileImage from '../assets/img/profile.jpeg';
 
-const AboutSection = () => {
+const About = () => {
   return (
     <section id="about" className="relative min-h-screen py-20 px-6 md:px-8 flex items-center overflow-hidden">
       {/* Background elements */}
@@ -78,12 +80,8 @@ const AboutSection = () => {
           >
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-accent/20 shadow-xl shadow-accent/10">
-                {/* Replace with your actual image */}
-                <div className="w-full h-full bg-gradient-to-br from-accent to-accent-purple opacity-50 flex items-center justify-center">
-                  {/* This is a placeholder. Replace with your actual image: */}
-                  {/* <img src="/path/to/your-photo.jpg" alt="Divya Munjal" className="w-full h-full object-cover" /> */}
-                  <span className="text-2xl font-bold text-bg-primary">Your Photo</span>
-                </div>
+                {/* Using the imported profile image */}
+                <img src={profileImage} alt="Divya Munjal" className="w-full h-full object-cover" />
               </div>
               
               {/* Decorative elements */}
@@ -110,4 +108,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default About;

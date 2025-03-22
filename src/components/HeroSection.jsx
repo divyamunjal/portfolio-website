@@ -1,5 +1,6 @@
 import React from 'react'
 import CodeWindow from './CodeWindow'
+import { Link } from 'react-router-dom'
 
 const HeroSection = () => {
   return (
@@ -23,18 +24,16 @@ const HeroSection = () => {
             I'm a front-end developer with <span className="text-accent font-medium">6.5 years of experience</span> specializing in Angular and React Native frameworks. Currently at <span className="text-accent font-medium">Refread Solutions</span>, building accessible and high-performance applications that deliver exceptional user experiences.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a 
-              href="#projects" 
+            <Link to="/projects" 
               className="inline-block px-6 py-3 bg-accent-gradient rounded text-bg-primary font-semibold cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/20 text-center opacity-0 animate-fade-in-5"
             >
               View My Projects
-            </a>
-            <a 
-              href="#contact" 
+            </Link>
+            <Link to="/contact" 
               className="inline-block px-6 py-3 bg-transparent border border-accent rounded text-accent font-semibold cursor-pointer transition-all duration-300 hover:bg-accent/10 text-center opacity-0 animate-fade-in-6"
             >
               Get In Touch
-            </a>
+            </Link>
           </div>
         </div>
         

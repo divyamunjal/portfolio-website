@@ -6,10 +6,10 @@ const SocialLinks = () => {
     <>
       {/* Social links */}
       <div className="hidden md:flex fixed left-8 bottom-0 flex-col items-center gap-4 z-10">
-        <a href="#" className="social-icon">
+        <a href="https://github.com/divyamunjal" target="_blank" className="social-icon">
           <FaGithub size={22} />
         </a>
-        <a href="#" className="social-icon">
+        <a href="https://www.linkedin.com/in/divya-munjal-00b22714b/" target='_blank' className="social-icon">
           <FaLinkedinIn size={22} />
         </a>
         <div className="w-px h-24 bg-text-secondary"></div>
