@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 // Import the profile image
 import profileImage from '../assets/img/profile.jpeg';
 
-const About = () => {
+const AboutSection = () => {
   return (
     <section id="about" className="relative min-h-screen py-20 px-6 md:px-8 flex items-center overflow-hidden">
       {/* Background elements */}
@@ -28,22 +28,21 @@ const About = () => {
             
             <div className="space-y-4 text-text-secondary">
               <p>
-                Hello! I'm Divya, a frontend developer with 6.5 years of experience specializing in building
+                Hello! I'm Divya, a frontend developer with 7.5 years of experience specializing in building
                 responsive, high-performance web and mobile applications. My journey in development started
                 with a passion for creating interfaces that are both beautiful and functional.
               </p>
               
               <p>
-                I specialize in modern JavaScript frameworks, particularly <span className="text-accent">Angular</span> and <span className="text-accent">React Native</span>. 
+                I specialize in modern JavaScript frameworks, particularly <span className="text-accent">Angular</span> and <span className="text-accent">ReactJS</span>. 
                 My approach combines clean code architecture with user-centered design principles to deliver
                 products that not only meet business requirements but exceed user expectations.
               </p>
               
               <p>
-                Currently at <span className="text-accent">Refread Solutions</span>, I work on developing cross-platform
-                mobile applications that provide seamless experiences across devices. I'm particularly passionate
+                Currently at <span className="text-accent">Capgemini</span>, I work on developing web applications that provide seamless experiences across devices. I'm particularly passionate
                 about performance optimization and accessibility, ensuring that applications I build are fast and
-                usable for everyone.
+                usable for everyone. I'm also expanding my skill set by learning <span className="text-accent">Node.js</span> to enhance my full-stack capabilities.
               </p>
               
               <p>
@@ -54,7 +53,7 @@ const About = () => {
             
             <div className="mt-8 flex flex-wrap gap-4">
               <div className="bg-bg-secondary/50 backdrop-blur-sm p-4 rounded-lg border border-accent/10">
-                <p className="text-2xl font-bold text-text-primary">6.5+</p>
+                <p className="text-2xl font-bold text-text-primary">7.5+</p>
                 <p className="text-text-secondary">Years Experience</p>
               </div>
               
@@ -90,15 +89,15 @@ const About = () => {
               
               {/* Tech stack decorative elements */}
               <div className="absolute top-0 right-0 transform -translate-y-1/2 translate-x-1/2 bg-bg-secondary/70 backdrop-blur-sm p-3 rounded-full border border-accent/10 shadow-lg">
-                <span className="text-accent text-2xl font-bold">Rx</span>
+                <span className="text-accent text-2xl font-bold">⚛️</span>
               </div>
               
               <div className="absolute bottom-0 left-0 transform translate-y-1/2 -translate-x-1/2 bg-bg-secondary/70 backdrop-blur-sm p-3 rounded-full border border-accent/10 shadow-lg">
-                <span className="text-accent-purple text-2xl font-bold">Ng</span>
+                <span className="text-accent-purple text-2xl font-bold">JS</span>
               </div>
               
               <div className="absolute top-1/2 right-0 transform translate-x-1/2 bg-bg-secondary/70 backdrop-blur-sm p-3 rounded-full border border-accent/10 shadow-lg">
-                <span className="text-[#61DAFB] text-2xl font-bold">⚛️</span>
+                <span className="text-[#68A063] text-2xl font-bold">Node</span>
               </div>
             </div>
           </motion.div>
@@ -108,4 +107,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;
