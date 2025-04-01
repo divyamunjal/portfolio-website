@@ -7,49 +7,108 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      role: "Senior Frontend Developer",
-      company: "Refread Solutions",
-      period: "2022 - Present",
-      description: "Currently leading frontend development for mobile applications using React Native. Focused on building accessible and high-performance applications that deliver exceptional user experiences.",
+      role: "Senior Consultant",
+      company: "Capgemini",
+      period: "Oct 2024 - Present",
+      description:
+        "Working as a dedicated frontend resource on the AIG Insurance project, focusing on application modernization, feature development, and production support. Led the successful migration from Angular 15 to Angular 18, resulting in improved performance and enhanced user experience.",
       achievements: [
-        "Improved app performance by 40% through code optimization and implementing lazy loading techniques",
-        "Led the migration from legacy codebase to React Native, resulting in a shared codebase for iOS and Android platforms",
-        "Mentored junior developers and established frontend best practices and coding standards"
+        "Successfully migrated a complex enterprise application from Angular 15 to Angular 18, implementing new features and ensuring backward compatibility",
+        "Worked extensively with the Axis framework to develop and maintain reusable components, improving development efficiency and consistency across the application",
+        "Utilized AUG Generator to build dynamic UI components from JSON configurations, streamlining the development process and reducing time-to-market",
+        "Served as a dedicated resource for production support, quickly diagnosing and resolving critical issues to maintain system reliability with minimal downtime",
+        "Collaborated with cross-functional teams to implement new features and enhancements based on business requirements and user feedback",
       ],
-      technologies: ["React Native", "TypeScript", "Redux", "Jest", "React Navigation"],
+      technologies: [
+        "Angular 18",
+        "TypeScript",
+        "Axis Framework",
+        "AUG Generator",
+        "RxJS",
+        "RESTful APIs",
+        "SCSS",
+      ],
       color: "from-blue-500/20 to-indigo-500/20",
-      icon: <FaMobile className="text-accent" />
+      //icon: "Angular",
+      icon: <FaAngular className="text-accent" />,
     },
     {
       id: 2,
-      role: "Frontend Developer",
-      company: "Tech Innovators Inc.",
-      period: "2019 - 2022",
-      description: "Developed responsive web applications using modern JavaScript frameworks. Worked closely with designers and backend developers to implement user interfaces and integrate with RESTful APIs.",
+      role: "Senior Frontend Developer",
+      company: "Refread Solutions",
+      period: "2023 - 2024",
+      description:
+        "Led the successful migration of a digital library platform from AngularJS to Angular 16, powering over 70+ institutional libraries including prestigious organizations such as DRDO, Indian Air Force, Delhi University, RGPV, Thapar University, and AMU. Focused on modernizing the platform while enhancing functionality, performance, and user experience through a single codebase architecture that accommodates institution-specific customizations.",
       achievements: [
-        "Built and maintained multiple client projects with Angular, focusing on responsive design and accessibility",
-        "Implemented state management patterns using NgRx, resulting in more predictable application behavior",
-        "Reduced build times by 60% by optimizing webpack configuration and implementing code splitting"
+        "Spearheaded the complete migration from legacy AngularJS to Angular 16, resulting in improved performance, maintainability, and modern development practices",
+        "Designed and implemented multiple theme options for homepages, allowing each library to have a distinct visual identity",
+        "Developed a comprehensive new admin panel with enhanced controls and management capabilities for library administrators",
+        "Created advanced analytics modules generating detailed reports on user activities, search criteria, and session activities for data-driven decision making",
       ],
-      technologies: ["Angular", "RxJS", "NgRx", "SCSS", "TypeScript", "Jasmine"],
-      color: "from-red-500/20 to-orange-500/20",
-      icon: <FaAngular className="text-[#DD0031]" />
+      technologies: [
+        "Angular 16",
+        "TypeScript",
+        "RxJS",
+        "NgRx",
+        "OAuth Integration",
+        "RESTful APIs",
+        "Responsive Design",
+        "SCSS/CSS",
+        "Data Visualization",
+      ],
+      color: "from-blue-500/20 to-indigo-500/20",
+      icon: <FaAngular className="text-accent" />,
     },
     {
       id: 3,
+      role: "Frontend Developer",
+      company: "Refread Solutions",
+      period: "2020 - 2023",
+      description:
+        "Led the development of a scalable digital library platform using a single codebase architecture that powers over 70+ institutional libraries, including prestigious organizations such as DRDO, Indian Air Force, Delhi University, RGPV, Thapar University, and Aligarh Muslim University. Focused on creating customizable, feature-rich solutions tailored to each library's unique requirements.",
+      achievements: [
+        "Architected and implemented a single codebase solution that scales across 70+ different libraries while allowing for institution-specific customizations",
+        "Developed advanced search optimization features resulting in 60% faster query results and improved user satisfaction",
+        "Designed and implemented a reading history system with personalized recommendations based on user behavior",
+        "Created a new arrivals module with notification capabilities to increase user engagement and collection awareness",
+        "Integrated Microsoft, Google, and Instagram authentication systems for seamless user access across platforms",
+        "Built a comprehensive book collection management module with cataloging, tracking, and analytics features",
+        "Modularized the search functionality into a standalone component that could be embedded in other applications",
+        "Developed a customization framework allowing each library to maintain unique branding, features, and user experiences",
+      ],
+      technologies: [
+        "AngularJS",
+        "JavaScript",
+        "OAuth Integration",
+        "RESTful APIs",
+        "Responsive Design",
+      ],
+      color: "from-blue-500/20 to-indigo-500/20",
+      icon: <FaAngular className="text-accent" />,
+    },
+    {
+      id: 4,
       role: "Junior Web Developer",
       company: "Digital Solutions Ltd",
       period: "2017 - 2019",
-      description: "Started my career building interactive web applications and e-commerce sites. Worked on frontend and backend development, focusing on creating seamless user experiences.",
+      description:
+        "Started my career building interactive web applications and e-commerce sites. Worked on frontend and backend development, focusing on creating seamless user experiences.",
       achievements: [
         "Developed and maintained e-commerce websites using React, increasing conversion rates by 25%",
         "Collaborated with UX designers to implement responsive designs and improve user experience",
-        "Assisted in migrating legacy applications to modern tech stacks"
+        "Assisted in migrating legacy applications to modern tech stacks",
       ],
-      technologies: ["React", "JavaScript", "HTML5", "CSS3", "Bootstrap", "Node.js"],
+      technologies: [
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "Node.js",
+      ],
       color: "from-cyan-500/20 to-teal-500/20",
-      icon: <FaReact className="text-[#61DAFB]" />
-    }
+      icon: <FaAngular className="text-[#61DAFB]" />,
+    },
   ];
 
   const containerVariants = {
@@ -83,7 +142,7 @@ const Experience = () => {
           <p className="font-mono text-accent text-base mb-4 opacity-0 animate-fade-in-1">My Professional Journey</p>
           <h1 className="text-4xl md:text-5xl font-bold bg-accent-gradient bg-clip-text text-transparent opacity-0 animate-fade-in-2">Work Experience</h1>
           <p className="text-text-secondary mt-6 max-w-2xl mx-auto opacity-0 animate-fade-in-3">
-            Over the past 6.5 years, I've worked with various technologies and frameworks to create
+            Over the past 7.5 years, I've worked with various technologies and frameworks to create
             exceptional user experiences. Here's a look at my professional journey.
           </p>
         </div>
