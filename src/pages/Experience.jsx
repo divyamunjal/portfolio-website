@@ -34,39 +34,14 @@ const Experience = () => {
     },
     {
       id: 2,
-      role: "Senior Frontend Developer",
-      company: "Refread Solutions",
-      period: "2023 - 2024",
-      description:
-        "Led the successful migration of a digital library platform from AngularJS to Angular 16, powering over 70+ institutional libraries including prestigious organizations such as DRDO, Indian Air Force, Delhi University, RGPV, Thapar University, and AMU. Focused on modernizing the platform while enhancing functionality, performance, and user experience through a single codebase architecture that accommodates institution-specific customizations.",
-      achievements: [
-        "Spearheaded the complete migration from legacy AngularJS to Angular 16, resulting in improved performance, maintainability, and modern development practices",
-        "Designed and implemented multiple theme options for homepages, allowing each library to have a distinct visual identity",
-        "Developed a comprehensive new admin panel with enhanced controls and management capabilities for library administrators",
-        "Created advanced analytics modules generating detailed reports on user activities, search criteria, and session activities for data-driven decision making",
-      ],
-      technologies: [
-        "Angular 16",
-        "TypeScript",
-        "RxJS",
-        "NgRx",
-        "OAuth Integration",
-        "RESTful APIs",
-        "Responsive Design",
-        "SCSS/CSS",
-        "Data Visualization",
-      ],
-      color: "from-blue-500/20 to-indigo-500/20",
-      icon: <FaAngular className="text-accent" />,
-    },
-    {
-      id: 3,
-      role: "Frontend Developer",
-      company: "Refread Solutions",
-      period: "2020 - 2023",
+      role: "Front-End Developer",
+      company: "Refread Solutions Pvt. Ltd",
+      period: "2020 - 2024",
       description:
         "Led the development of a scalable digital library platform using a single codebase architecture that powers over 70+ institutional libraries, including prestigious organizations such as DRDO, Indian Air Force, Delhi University, RGPV, Thapar University, and Aligarh Muslim University. Focused on creating customizable, feature-rich solutions tailored to each library's unique requirements.",
       achievements: [
+        "Successfully migrated the entire platform from legacy AngularJS to Angular 16, modernizing the codebase while maintaining all existing functionality",
+        "Developed companion mobile applications in React Native for each library, extending digital resource access to mobile users with library-specific branding and features",
         "Architected and implemented a single codebase solution that scales across 70+ different libraries while allowing for institution-specific customizations",
         "Developed advanced search optimization features resulting in 60% faster query results and improved user satisfaction",
         "Designed and implemented a reading history system with personalized recommendations based on user behavior",
@@ -77,34 +52,44 @@ const Experience = () => {
         "Developed a customization framework allowing each library to maintain unique branding, features, and user experiences",
       ],
       technologies: [
-        "AngularJS",
-        "JavaScript",
+        "Angular 16",
+        "React Native",
+        "TypeScript",
+        "RxJS",
+        "NgRx",
+        "Redux",
         "OAuth Integration",
         "RESTful APIs",
         "Responsive Design",
+        "Cross-platform Development",
       ],
       color: "from-blue-500/20 to-indigo-500/20",
       icon: <FaAngular className="text-accent" />,
     },
     {
       id: 4,
-      role: "Junior Web Developer",
-      company: "Digital Solutions Ltd",
-      period: "2017 - 2019",
+      role: "Software Engineer",
+      company: "RegalBit Solutions Pvt. Ltd",
+      period: "2017 - 2020",
       description:
-        "Started my career building interactive web applications and e-commerce sites. Worked on frontend and backend development, focusing on creating seamless user experiences.",
+        "Specialized in developing AngularJS applications with a focus on digital signature solutions and performance optimization. Created modular, reusable components that integrated seamlessly with third-party services while ensuring optimal performance.",
       achievements: [
-        "Developed and maintained e-commerce websites using React, increasing conversion rates by 25%",
-        "Collaborated with UX designers to implement responsive designs and improve user experience",
-        "Assisted in migrating legacy applications to modern tech stacks",
+        "Designed and implemented a Digital Document Signatures system with a modular architecture that was successfully integrated as a core component in multiple third-party services",
+        "Optimized application performance for non-functional requirements, significantly improving response times and user experience through strategic use of AngularJS Cache to reduce backend calls",
+        "Managed the integration between the Signature component and backend APIs, ensuring reliable data flow and consistent functionality across different environments",
+        "Implemented client-side validation and error handling to improve user experience and reduce server load",
+        "Collaborated with cross-functional teams to understand business requirements and translate them into technical solutions",
+        "Created comprehensive documentation for the signature module, facilitating easier maintenance and onboarding for new developers",
       ],
       technologies: [
-        "React",
+        "AngularJS",
         "JavaScript",
         "HTML5",
         "CSS3",
+        "RESTful APIs",
+        "Git",
+        "JSON",
         "Bootstrap",
-        "Node.js",
       ],
       color: "from-cyan-500/20 to-teal-500/20",
       icon: <FaAngular className="text-[#61DAFB]" />,
@@ -230,7 +215,7 @@ const Experience = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-bg-secondary/30 p-6 rounded-lg border border-accent/5">
               <h3 className="text-xl font-bold text-text-primary">Bachelor of Science in Computer Science</h3>
-              <p className="text-accent">University of Technology</p>
+              <p className="text-accent">Kurukshetra University</p>
               <p className="text-text-secondary mt-2">2013 - 2017</p>
               <p className="mt-4 text-text-secondary">
                 Focused on web technologies, algorithms, and software engineering principles.
@@ -240,7 +225,7 @@ const Experience = () => {
             
             <div className="bg-bg-secondary/30 p-6 rounded-lg border border-accent/5">
               <h3 className="text-xl font-bold text-text-primary">Certified Angular Developer</h3>
-              <p className="text-accent">Google Certification Program</p>
+              <p className="text-accent">Sahosoft Solutions</p>
               <p className="text-text-secondary mt-2">2020</p>
               <p className="mt-4 text-text-secondary">
                 Advanced certification in Angular development, focusing on performance optimization
