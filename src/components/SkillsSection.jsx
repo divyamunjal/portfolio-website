@@ -21,19 +21,15 @@ import {
 
 const SkillsSection = () => {
   const skills = [
-    { name: 'React', icon: <FaReact className="text-[#61DAFB]" />, level: 90 },
+    { name: 'Angular', icon: <FaAngular className="text-[#DD0031]" />, level: 90 },
+    { name: 'React', icon: <FaReact className="text-[#61DAFB]" />, level: 85 },
     { name: 'React Native', icon: <FaReact className="text-[#61DAFB]" />, level: 85 },
-    { name: 'Angular', icon: <FaAngular className="text-[#DD0031]" />, level: 85 },
     { name: 'JavaScript', icon: <FaJs className="text-[#F7DF1E]" />, level: 90 },
     { name: 'TypeScript', icon: <SiTypescript className="text-[#3178C6]" />, level: 80 },
     { name: 'HTML5', icon: <FaHtml5 className="text-[#E34F26]" />, level: 95 },
     { name: 'CSS3', icon: <FaCss3Alt className="text-[#1572B6]" />, level: 90 },
     { name: 'Redux', icon: <SiRedux className="text-[#764ABC]" />, level: 75 },
-    { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-[#38B2AC]" />, level: 85 },
-    { name: 'Styled Components', icon: <SiStyledcomponents className="text-[#DB7093]" />, level: 80 },
-    { name: 'Node.js', icon: <FaNodeJs className="text-[#339933]" />, level: 70 },
-    { name: 'Firebase', icon: <SiFirebase className="text-[#FFCA28]" />, level: 75 },
-    { name: 'NPM', icon: <FaNpm className="text-[#CB3837]" />, level: 85 },
+    { name: 'Node.js', icon: <FaNodeJs className="text-[#339933]" />, level: 50 }
   ];
 
   const containerVariants = {
